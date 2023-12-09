@@ -13,16 +13,16 @@ class Leñador { //clase del personaje que va a manejar el jugador
       return;
     }
     
-    if (keyIsDown(LEFT_ARROW) && this.x - this.speed >= 0) {
+    if (keyIsDown(65) && this.x - this.speed >= 0) {
       this.x -= this.speed;
     }
-    if (keyIsDown(RIGHT_ARROW) && this.x + this.size + this.speed <= width) {
+    if (keyIsDown(68) && this.x + this.size + this.speed <= width) {
       this.x += this.speed;
     }
-    if (keyIsDown(UP_ARROW) && this.y - this.speed >= 0) {
+    if (keyIsDown(87) && this.y - this.speed >= 0) {
       this.y -= this.speed;
     }
-    if (keyIsDown(DOWN_ARROW) && this.y + this.size + this.speed <= height) {
+    if (keyIsDown(83) && this.y + this.size + this.speed <= height) {
       this.y += this.speed;
     }
   }

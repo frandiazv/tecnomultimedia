@@ -16,7 +16,7 @@ class Juego {
   
   iniciarTimer() {
     if (this.timer === null) {
-      this.timeRemaining = 15; // Configura el tiempo inicial
+      this.timeRemaining = 20; // Configura el tiempo inicial
       this.timer = setInterval(this.updateTimer.bind(this), 1000);
     }
   }
