@@ -33,14 +33,14 @@ class GeneradorDePantallas {
       new Pantalla(1, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Zzzzz \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Presiona ENTER para continuar", 0, imagenes[0]),
       new Pantalla(2, "Creo que es hora de desayunar", 0, imagenes[1]),
       new Pantalla(3, "\n Bueno .. iré a visitar \n a la abuela", 0, imagenes[2]),
-      new Pantalla(4, "que fue eso?", 0, imagenes[3]),
+      new Pantalla(4, "¿Que fue eso?", 0, imagenes[3]),
       new Pantalla(5, "¡AAAAAAA SOCORRO!", 0, imagenes[4]),
-      new Pantalla(6, "que esta pasando por aqui?!", 0, imagenes[5]),
+      new Pantalla(6, "¡¿Que esta pasando por aqui?!", 0, imagenes[5]),
       new Pantalla(7, "", 0, imagenes[6]),
-      new Pantalla(8, "necesita ayuda", 0, imagenes[7]),
-      new Pantalla(9, "Toma esto lobo !", 0, imagenes[8]),
+      new Pantalla(8, "¡Necesita ayuda!", 0, imagenes[7]),
+      new Pantalla(9, "¡Toma esto lobo!", 0, imagenes[8]),
       new Pantalla(10, "(lanza el hacha)", 0, imagenes[9]), 
-      new Pantalla(11, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n No voy a dejar que se escapen... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Utiliza asdw para moverte", 0, imagenes[10]),
+      new Pantalla(11, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n No voy a dejar que se escapen... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Utiliza asdw para moverte, debes alcanzar 10 lobos.", 0, imagenes[10]),
       new Pantalla(12, this.juego, 1)
     ];
   }
